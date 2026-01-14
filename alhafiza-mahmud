@@ -1,0 +1,106 @@
+<!-- =========================
+ FILE: index.html (FULL UPDATED)
+========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Hafiza Mahmud Sdn. Bhd. | Home</title>
+  <meta name="description" content="Al Hafiza Mahmud Sdn. Bhd. provides clothing sales, recruitment, travel, ticketing, hotel and car rental services." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Al Hafiza Mahmud</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <button id="themeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h2 class="fade-in">Your Trusted Business Partner</h2>
+    <p class="fade-in delay">Clothing • Employee & Student Recruitment • Travel • Tickets • Hotels • Cars • Tours</p>
+    <a class="btn" href="#contact">Contact Us</a>
+  </section>
+
+  <!-- SERVICES CARDS -->
+  <section class="services">
+    <div class="card slide-up">
+      👕 <strong>Clothes Selling</strong>
+    </div>
+    <div class="card slide-up delay">
+      👔 <strong>Employee Recruitment</strong>
+    </div>
+    <div class="card slide-up delay2">
+      🎓 <strong>Student Recruitment</strong>
+    </div>
+    <div class="card slide-up">
+      ✈️ <strong>Air Ticket Booking</strong>
+    </div>
+    <div class="card slide-up delay">
+      🏨 <strong>Hotel Booking</strong>
+    </div>
+    <div class="card slide-up delay2">
+      🚗 <strong>Car Rental</strong>
+    </div>
+    <div class="card slide-up">
+      🌍 <strong>Tour & Travel</strong>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery">
+    <h2>Our Hotels</h2>
+    <div class="gallery-grid">
+      <img src="hotel1.jpg" alt="Hotel 1" />
+      <img src="hotel2.jpg" alt="Hotel 2" />
+      <img src="hotel3.jpg" alt="Hotel 3" />
+    </div>
+
+    <h2>Recruitment Services</h2>
+    <div class="gallery-grid">
+      <img src="recruit1.jpg" alt="Recruitment 1" />
+      <img src="recruit2.jpg" alt="Recruitment 2" />
+      <img src="recruit3.jpg" alt="Recruitment 3" />
+    </div>
+
+    <h2>Car Rental Services</h2>
+    <div class="gallery-grid">
+      <img src="car1.jpg" alt="Car 1" />
+      <img src="car2.jpg" alt="Car 2" />
+      <img src="car3.jpg" alt="Car 3" />
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="page">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button class="btn">Send Message</button>
+    </form>
+
+    <p class="contact-info">
+      📧 hasibzisad@gmail.com<br/>
+      📧 rupokzisad7@gmail.com<br/>
+      📞 <a href="https://wa.me/601164277004">💬 WhatsApp Chat</a>
+    </p>
+
+    <h3>Our Location</h3>
+    <iframe 
+      src="https://www.google.com/maps?q=1,+Jalan+Cemur,+Titiwangsa+Sentral,+50400+Kuala+Lumpur&output=embed" 
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </section>
+
+  <footer class="footer">© 2026 Al Hafiza Mahmud Sdn. Bhd.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
